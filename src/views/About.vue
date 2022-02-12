@@ -251,7 +251,7 @@ export default {
     getRestaurant () {
       this.axios
         .get(
-          'https://ptx.transportdata.tw/MOTC/v2/Tourism/Restaurant?%24top=10000&%24format=JSON'
+          'https://ptx.transportdata.tw/MOTC/v2/Tourism/Restaurant?%24top=100&%24format=JSON'
         )
         .then((res) => {
           console.log(res)
